@@ -16,9 +16,10 @@ fetch("https://gpa.madbob.org/query.php?stop=" + nfermata)
   console.log("Lunghezza:" + long)
   for (let n = 0; n < long; n++) {
     dati.push(data[n].line)
+    console.log(dati[n]);
   }
 
-  console.log(dati[9]);
+
 })
 .catch(error => console.log(error))
  
